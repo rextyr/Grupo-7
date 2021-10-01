@@ -31,7 +31,7 @@ namespace Hospimascotas.App.Consola
               peludoenfermo.Raza= "Criollo";
               peludoenfermo.Direccion= "mz 19 cs 128";
               peludoenfermo.Latitud= 24.000F;
-              peludoenfermo.Longitud= -72.884546F;
+              peludoenfermo.Longitud= -72.8894546F;
               peludoenfermo.Ciudad= "Cali" ;
               //Ejemplo de Relacion Uno a Uno
               Dueño pepe = new Dueño();
