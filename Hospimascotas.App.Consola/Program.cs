@@ -25,7 +25,7 @@ namespace Hospimascotas.App.Consola
             var peludoenfermo = new MascotaEnferma();
               peludoenfermo.Nombre="Pepe";
               peludoenfermo.Color= "Cafe";
-              peludoenfermo.Edad= 8;
+              peludoenfermo.Edad= 88;
               peludoenfermo.Genero= Genero.masculino;
               peludoenfermo.TipoMascota= "Perro";
               peludoenfermo.Raza= "Criollo";
