@@ -10,3 +10,15 @@ C:\HospiMascotas\Hospimascotas.App\Hospimascotas.App.Persistencia\bin\Debug\nets
 C:\HospiMascotas\Hospimascotas.App\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.csproj.CopyComplete
 C:\HospiMascotas\Hospimascotas.App\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.dll
 C:\HospiMascotas\Hospimascotas.App\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.pdb
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.dll
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.pdb
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\bin\Debug\netstandard2.1\Hospimascotas.App.Persistencia.deps.json
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\bin\Debug\netstandard2.1\Hospimascotas.App.Persistencia.dll
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\bin\Debug\netstandard2.1\Hospimascotas.App.Persistencia.pdb
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\bin\Debug\netstandard2.1\Hospimascotas.App.Dominio.dll
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\bin\Debug\netstandard2.1\Hospimascotas.App.Dominio.pdb
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.csprojAssemblyReference.cache
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.AssemblyInfoInputs.cache
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.AssemblyInfo.cs
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Persistencia\obj\Debug\netstandard2.1\Hospimascotas.App.Persistencia.csproj.CopyComplete
