@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\HospiMascotas\\Hospimascotas.App\\HospiMascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
+      "projectUniqueName": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
       "projectName": "Hospimascotas.App.Consola",
-      "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\HospiMascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
+      "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
       "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
-      "outputPath": "C:\\HospiMascotas\\Hospimascotas.App\\HospiMascotas.App.Consola\\obj\\",
+      "outputPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5820,11 +5820,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
-              "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj"
+            "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
+              "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj"
             },
-            "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj": {
-              "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj"
+            "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj": {
+              "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj"
             }
           }
         }

@@ -16,9 +16,8 @@ namespace Hospimascotas.App.Dominio
         public float Latitud  { get; set; }
         public float  Longitud { get; set; }
         public string Ciudad { get; set; }
-
-        public int MedicoVeterinarioId { get; set; }
-        
+        public int IdMedicoVeterinario { get; set; }
+        public int IdAuxiliarVeterinario { get; set; }
         public Dueño DueñoEncargado { get; set; }
         public Historia HistoriaMedica { get; set; }
         public  System.Collections.Generic.List<SignosVitales> RegistrodeSignos { get; set; }

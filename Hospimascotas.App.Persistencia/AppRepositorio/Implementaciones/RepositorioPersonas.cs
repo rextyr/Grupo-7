@@ -72,7 +72,7 @@ namespace Hospimascotas.App.Persistencia
            if (dueñoActualizado==null)
            {
                dueñoActualizado.Correo=dueño.Correo;
-               dueñoActualizado.MascotaEnfermaId=dueño.MascotaEnfermaId;
+               dueñoActualizado.IdMascotaEnferma=dueño.IdMascotaEnferma;
                _appContext.SaveChanges();
            }
 
@@ -88,7 +88,6 @@ namespace Hospimascotas.App.Persistencia
                medicoActualizado.Especialidad=medicoVeterinario.Especialidad;
                medicoActualizado.TarjetaProfesional=medicoVeterinario.TarjetaProfesional;
                medicoActualizado.MascotasAsignadas=medicoVeterinario.MascotasAsignadas;
-               medicoActualizado.AuxiliarAyudante=medicoVeterinario.AuxiliarAyudante;
                _appContext.SaveChanges();
            }
 
@@ -103,7 +102,7 @@ namespace Hospimascotas.App.Persistencia
            {
               AuxiliarActualizado.NoCertificado=auxiliarVeterinario.NoCertificado;
               AuxiliarActualizado.HorasLaborales=auxiliarVeterinario.HorasLaborales;
-              AuxiliarActualizado.MedicoVeterinarioId=auxiliarVeterinario.MedicoVeterinarioId;
+              
                _appContext.SaveChanges();
            }
            return AuxiliarActualizado;

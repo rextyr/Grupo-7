@@ -4,7 +4,7 @@ namespace Hospimascotas.App.Dominio
     {
       
       public string Correo { get; set; }
-      public int MascotaEnfermaId { get; set; }
+      public int IdMascotaEnferma {get ; set;}
       
       
       

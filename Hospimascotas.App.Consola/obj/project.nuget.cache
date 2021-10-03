@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CyUFGkYSN8On+cil5iMKB5hPLn49ZRuyKhgW9NjbCe1H1WwatPp/FYhasb0NOGPSqfBmoYWQZXrguOvZlrdnrA==",
+  "dgSpecHash": "bdbOPblwJ/7vKq+Zd9iM2JFPpp524qmkl/hww7cBsPTmIcrZbxHiNtkSRvWItTZiVX0gHgVIXfDdoR7ZkgI/UA==",
   "success": true,
-  "projectFilePath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
+  "projectFilePath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DANIEL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

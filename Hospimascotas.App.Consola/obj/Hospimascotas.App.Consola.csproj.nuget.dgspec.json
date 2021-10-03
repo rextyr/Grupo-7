@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj": {}
+    "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj": {
+    "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
+        "projectUniqueName": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
         "projectName": "Hospimascotas.App.Consola",
-        "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
+        "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\Hospimascotas.App.Consola.csproj",
         "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
-        "outputPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Consola\\obj\\",
+        "outputPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,11 +25,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
-                "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj"
+              "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
+                "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj"
               },
-              "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj": {
-                "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj"
+              "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj": {
+                "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
+    "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
+        "projectUniqueName": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
         "projectName": "Hospimascotas.App.Dominio",
-        "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
+        "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
-        "outputPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\obj\\",
+        "outputPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj": {
+    "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj",
         "projectName": "Hospimascotas.App.Persistencia",
-        "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj",
+        "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
-        "outputPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\obj\\",
+        "outputPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -143,8 +143,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
-                "projectPath": "C:\\HospiMascotas\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj"
+              "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
+                "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj"
               }
             }
           }

@@ -7,8 +7,7 @@ namespace Hospimascotas.App.Dominio
     {
         public int NoCertificado { get; set; }
         public int  HorasLaborales { get; set; }
-        public int MedicoVeterinarioId { get; set; }
-        public  System.Collections.Generic.List<Historia> HistoriasEncargadas { get; set; }
+        
         
         
         

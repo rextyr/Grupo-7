@@ -52,7 +52,8 @@ namespace Hospimascotas.App.Persistencia
                mascotaEnfermaadicionada.Latitud=mascotaEnferma.Latitud;
                mascotaEnfermaadicionada.Longitud=mascotaEnferma.Longitud;
                mascotaEnfermaadicionada.Ciudad=mascotaEnferma.Ciudad;
-               mascotaEnfermaadicionada.MedicoVeterinarioId=mascotaEnferma.MedicoVeterinarioId;
+               mascotaEnfermaadicionada.IdMedicoVeterinario=mascotaEnferma.IdMedicoVeterinario;
+               mascotaEnfermaadicionada.IdAuxiliarVeterinario=mascotaEnferma.IdAuxiliarVeterinario;
                mascotaEnfermaadicionada.DueñoEncargado=mascotaEnferma.DueñoEncargado;
                mascotaEnfermaadicionada.HistoriaMedica=mascotaEnferma.HistoriaMedica;
                mascotaEnferma.RegistrodeSignos=mascotaEnferma.RegistrodeSignos;
