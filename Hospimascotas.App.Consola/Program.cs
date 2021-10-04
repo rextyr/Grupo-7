@@ -22,7 +22,7 @@ namespace Hospimascotas.App.Consola
               peludoenfermo.Edad= 7;
               peludoenfermo.Genero= Genero.masculino;
               peludoenfermo.TipoMascota= "Perro";
-              peludoenfermo.Raza= "Criollo";
+              peludoenfermo.Raza= "Pastor";
               peludoenfermo.Direccion= "mz 19 cs 128";
               peludoenfermo.Latitud= 24.000F;
               peludoenfermo.Longitud= -72.8894546F;
