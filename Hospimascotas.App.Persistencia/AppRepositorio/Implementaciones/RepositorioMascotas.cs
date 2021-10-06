@@ -40,7 +40,7 @@ namespace Hospimascotas.App.Persistencia
         MascotaEnferma IRepositorioMascotas.UpdateMascotaEnferma(MascotaEnferma mascotaEnferma)
         {
            var mascotaEnfermaadicionada = _appContext.MascotasEnfermas.FirstOrDefault( p => p.Id==mascotaEnferma.Id);
-           if (mascotaEnfermaadicionada==null)
+           if (mascotaEnfermaadicionada!=null)
            {
                mascotaEnfermaadicionada.Nombre=mascotaEnferma.Nombre;
                mascotaEnfermaadicionada.Color=mascotaEnferma.Color;
@@ -52,11 +52,11 @@ namespace Hospimascotas.App.Persistencia
                mascotaEnfermaadicionada.Latitud=mascotaEnferma.Latitud;
                mascotaEnfermaadicionada.Longitud=mascotaEnferma.Longitud;
                mascotaEnfermaadicionada.Ciudad=mascotaEnferma.Ciudad;
-               mascotaEnfermaadicionada.IdMedicoVeterinario=mascotaEnferma.IdMedicoVeterinario;
-               mascotaEnfermaadicionada.IdAuxiliarVeterinario=mascotaEnferma.IdAuxiliarVeterinario;
+               mascotaEnfermaadicionada.MedicoEncargado=mascotaEnferma.MedicoEncargado;
+               mascotaEnfermaadicionada.AuxiliarVeterinario_designado=mascotaEnferma.AuxiliarVeterinario_designado;
                mascotaEnfermaadicionada.DueñoEncargado=mascotaEnferma.DueñoEncargado;
                mascotaEnfermaadicionada.HistoriaMedica=mascotaEnferma.HistoriaMedica;
-               mascotaEnferma.RegistrodeSignos=mascotaEnferma.RegistrodeSignos;
+               mascotaEnferma.signosVitales=mascotaEnferma.signosVitales;
                _appContext.SaveChanges();
            }
 

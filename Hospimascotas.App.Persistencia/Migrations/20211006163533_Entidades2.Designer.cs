@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hospimascotas.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211002225529_Entidades")]
-    partial class Entidades
+    [Migration("20211006163533_Entidades2")]
+    partial class Entidades2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -52,6 +52,9 @@ namespace Hospimascotas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<int?>("AuxiliarVeterinario_designadoId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Ciudad")
                         .HasColumnType("nvarchar(max)");
 
@@ -61,28 +64,19 @@ namespace Hospimascotas.App.Persistencia.Migrations
                     b.Property<string>("Direccion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("DueñoEncargadoId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Edad")
                         .HasColumnType("int");
 
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
-                    b.Property<int>("IdAuxiliarVeterinario")
+                    b.Property<int>("Latitud")
                         .HasColumnType("int");
 
-                    b.Property<int>("IdMedicoVeterinario")
+                    b.Property<int>("Longitud")
                         .HasColumnType("int");
 
-                    b.Property<float>("Latitud")
-                        .HasColumnType("real");
-
-                    b.Property<float>("Longitud")
-                        .HasColumnType("real");
-
-                    b.Property<int?>("MedicoVeterinarioId")
+                    b.Property<int?>("MedicoEncargadoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
@@ -96,9 +90,9 @@ namespace Hospimascotas.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DueñoEncargadoId");
+                    b.HasIndex("AuxiliarVeterinario_designadoId");
 
-                    b.HasIndex("MedicoVeterinarioId");
+                    b.HasIndex("MedicoEncargadoId");
 
                     b.ToTable("MascotasEnfermas");
                 });
@@ -189,7 +183,7 @@ namespace Hospimascotas.App.Persistencia.Migrations
                     b.Property<int>("HorasLaborales")
                         .HasColumnType("int");
 
-                    b.Property<int>("NoCertificado")
+                    b.Property<int>("No_Certificado")
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("AuxiliarVeterinario");
@@ -202,8 +196,12 @@ namespace Hospimascotas.App.Persistencia.Migrations
                     b.Property<string>("Correo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("IdMascotaEnferma")
+                    b.Property<int>("MascotaEnfermaId")
                         .HasColumnType("int");
+
+                    b.HasIndex("MascotaEnfermaId")
+                        .IsUnique()
+                        .HasFilter("[MascotaEnfermaId] IS NOT NULL");
 
                     b.HasDiscriminator().HasValue("Dueño");
                 });
@@ -212,14 +210,14 @@ namespace Hospimascotas.App.Persistencia.Migrations
                 {
                     b.HasBaseType("Hospimascotas.App.Dominio.Persona");
 
+                    b.Property<int>("CetificadoVeterinario")
+                        .HasColumnType("int");
+
                     b.Property<int>("Codigo")
                         .HasColumnType("int");
 
                     b.Property<string>("Especialidad")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("TarjetaProfesional")
-                        .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("MedicoVeterinario");
                 });
@@ -235,21 +233,23 @@ namespace Hospimascotas.App.Persistencia.Migrations
 
             modelBuilder.Entity("Hospimascotas.App.Dominio.MascotaEnferma", b =>
                 {
-                    b.HasOne("Hospimascotas.App.Dominio.Dueño", "DueñoEncargado")
+                    b.HasOne("Hospimascotas.App.Dominio.AuxiliarVeterinario", "AuxiliarVeterinario_designado")
                         .WithMany()
-                        .HasForeignKey("DueñoEncargadoId");
+                        .HasForeignKey("AuxiliarVeterinario_designadoId");
 
-                    b.HasOne("Hospimascotas.App.Dominio.MedicoVeterinario", null)
+                    b.HasOne("Hospimascotas.App.Dominio.MedicoVeterinario", "MedicoEncargado")
                         .WithMany("MascotasAsignadas")
-                        .HasForeignKey("MedicoVeterinarioId");
+                        .HasForeignKey("MedicoEncargadoId");
 
-                    b.Navigation("DueñoEncargado");
+                    b.Navigation("AuxiliarVeterinario_designado");
+
+                    b.Navigation("MedicoEncargado");
                 });
 
             modelBuilder.Entity("Hospimascotas.App.Dominio.SignosVitales", b =>
                 {
                     b.HasOne("Hospimascotas.App.Dominio.MascotaEnferma", null)
-                        .WithMany("RegistrodeSignos")
+                        .WithMany("signosVitales")
                         .HasForeignKey("MascotaEnfermaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -258,22 +258,33 @@ namespace Hospimascotas.App.Persistencia.Migrations
             modelBuilder.Entity("Hospimascotas.App.Dominio.SugerenciaCuidado", b =>
                 {
                     b.HasOne("Hospimascotas.App.Dominio.Historia", null)
-                        .WithMany("SugerenciasdeCuidado")
+                        .WithMany("SugerenciaCuidados")
                         .HasForeignKey("HistoriaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Hospimascotas.App.Dominio.Dueño", b =>
+                {
+                    b.HasOne("Hospimascotas.App.Dominio.MascotaEnferma", null)
+                        .WithOne("DueñoEncargado")
+                        .HasForeignKey("Hospimascotas.App.Dominio.Dueño", "MascotaEnfermaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
             modelBuilder.Entity("Hospimascotas.App.Dominio.Historia", b =>
                 {
-                    b.Navigation("SugerenciasdeCuidado");
+                    b.Navigation("SugerenciaCuidados");
                 });
 
             modelBuilder.Entity("Hospimascotas.App.Dominio.MascotaEnferma", b =>
                 {
+                    b.Navigation("DueñoEncargado");
+
                     b.Navigation("HistoriaMedica");
 
-                    b.Navigation("RegistrodeSignos");
+                    b.Navigation("signosVitales");
                 });
 
             modelBuilder.Entity("Hospimascotas.App.Dominio.MedicoVeterinario", b =>

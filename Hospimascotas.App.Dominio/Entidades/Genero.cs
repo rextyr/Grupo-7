@@ -1,8 +1,8 @@
 namespace Hospimascotas.App.Dominio
 {
-   public enum Genero 
-   {
-       femenino,
-       masculino
-   }
+    public enum Genero
+    {
+        Masculino,
+        Femenino
+    }
 }

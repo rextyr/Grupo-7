@@ -72,7 +72,7 @@ namespace Hospimascotas.App.Persistencia
            if (dueñoActualizado==null)
            {
                dueñoActualizado.Correo=dueño.Correo;
-               dueñoActualizado.IdMascotaEnferma=dueño.IdMascotaEnferma;
+               dueñoActualizado.MascotaEnfermaId=dueño.MascotaEnfermaId;
                _appContext.SaveChanges();
            }
 
@@ -86,7 +86,7 @@ namespace Hospimascotas.App.Persistencia
            {
                medicoActualizado.Codigo=medicoVeterinario.Codigo;
                medicoActualizado.Especialidad=medicoVeterinario.Especialidad;
-               medicoActualizado.TarjetaProfesional=medicoVeterinario.TarjetaProfesional;
+               medicoActualizado.CetificadoVeterinario=medicoVeterinario.CetificadoVeterinario;
                medicoActualizado.MascotasAsignadas=medicoVeterinario.MascotasAsignadas;
                _appContext.SaveChanges();
            }
@@ -96,16 +96,16 @@ namespace Hospimascotas.App.Persistencia
 
         AuxiliarVeterinario IRepositorioPersonas.UpdateAuxiliarVeterinario(AuxiliarVeterinario auxiliarVeterinario)
         {
-         var AuxiliarActualizado = _appContext.AuxiliaresVeterinarios.FirstOrDefault( p => p.Id==auxiliarVeterinario.Id);
+         var auxiliarActualizado = _appContext.AuxiliaresVeterinarios.FirstOrDefault( p => p.Id==auxiliarVeterinario.Id);
          
-           if (AuxiliarActualizado==null)
+           if (auxiliarActualizado==null)
            {
-              AuxiliarActualizado.NoCertificado=auxiliarVeterinario.NoCertificado;
-              AuxiliarActualizado.HorasLaborales=auxiliarVeterinario.HorasLaborales;
+              auxiliarActualizado.No_Certificado=auxiliarVeterinario.No_Certificado;
+              auxiliarActualizado.HorasLaborales=auxiliarVeterinario.HorasLaborales;
               
                _appContext.SaveChanges();
            }
-           return AuxiliarActualizado;
+           return auxiliarActualizado;
 
         }
     }

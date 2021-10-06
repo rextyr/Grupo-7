@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
       "projectName": "Hospimascotas.App.Dominio",
-      "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
+      "projectPath": "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
-      "outputPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\obj\\",
+      "outputPath": "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config"

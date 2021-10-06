@@ -42,21 +42,23 @@ namespace Hospimascotas.App.Consola
                MedicoRaul.MascotasAsignadas.Add(peludoenfermo);
 
 
-               var peludoimpostor = new MascotaEnferma();
-              peludoimpostor.Id=4;
-              peludoimpostor.Nombre="Camilo";
-              peludoimpostor.Color= "Negro";
-              peludoimpostor.Edad= 7;
-              peludoimpostor.Genero= Genero.masculino;
-              peludoimpostor.TipoMascota= "Gato";
-              peludoimpostor.Raza= "Siames";
-              peludoimpostor.Direccion= "mz 19 cs 128";
-              peludoimpostor.Latitud= 24.000F;
-              peludoimpostor.Longitud= -72.8894546F;
-              peludoimpostor.Ciudad= "Cali" ;
-              peludoimpostor.IdMedicoVeterinario=1;
-                 
-             
+               var peludoimpostor = new MascotaEnferma(){
+              Id=6,
+              Nombre="Camilo",
+              Color= "Negro",
+              Edad= 7,
+              Genero= Genero.masculino,
+              TipoMascota= "Gato",
+              Raza= "Siames",
+              Direccion= "mz 19 cs 128",
+              Latitud= 24.000F,
+              Longitud= -72.8894546F,
+              Ciudad= "Cali" ,
+              
+               };   
+            
+            DeleteMascota(5);
+            UpdateMascotaEnferma(peludoimpostor);
                  
         }
 
@@ -83,9 +85,8 @@ namespace Hospimascotas.App.Consola
         
         public static void UpdateMascotaEnferma(MascotaEnferma peludoimpostor)
         {
-           _reporteMascota.DeleteMascotaEnferma(peludoimpostor.Id);
+           
            var MascotaNueva=_reporteMascota.UpdateMascotaEnferma(peludoimpostor);
-           _reporteMascota.AddMascotaEnferma(MascotaNueva);
           Console.WriteLine("se ha Cambiado el registro");
         }
 
@@ -94,6 +95,8 @@ namespace Hospimascotas.App.Consola
            var  peludoEncontrado=_reporteMascota.GetMascotaEnferma(idMascotaEnferma);
             Console.WriteLine("el nombre de la mascota es"+"  "+peludoEncontrado.Nombre+"  "+"la edad de la mascotas es"+"   "+ peludoEncontrado.Edad );
         }
+
+        
         
     }
 }

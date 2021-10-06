@@ -46,7 +46,7 @@ namespace Hospimascotas.App.Persistencia
            {
                historiadicionada.Diagnostico=historia.Diagnostico;
                historiadicionada.Entorno=historia.Entorno;
-               historiadicionada.SugerenciasdeCuidado=historia.SugerenciasdeCuidado;
+               historiadicionada.SugerenciaCuidados=historia.SugerenciaCuidados;
 
                _appContext.SaveChanges();
            }

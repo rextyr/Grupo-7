@@ -1,0 +1,17 @@
+﻿@page
+@model Hospimascotas.App.Frontend.Pages.ListaHistoriasModel
+@{
+}
+<h1>Lista de Mascotas</h1>
+<table class="table">
+   @foreach (var historia in Model.Historias)
+  {
+     <tr>
+
+         <td>@historia.Diagnostico</td>
+         <td>@historia.Entorno</td>
+         <td>@historia.MascotaEnfermaId</td>
+     </tr>
+  }
+
+</table>

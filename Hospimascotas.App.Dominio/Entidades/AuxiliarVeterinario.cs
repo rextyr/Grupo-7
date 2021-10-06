@@ -1,19 +1,15 @@
-using System;
-using System.Collections;
-
 namespace Hospimascotas.App.Dominio
 {
-    public class AuxiliarVeterinario : Persona
+    public class AuxiliarVeterinario:Persona
     {
-        public int NoCertificado { get; set; }
-        public int  HorasLaborales { get; set; }
-        
-        
-        
-        
-        
-        
-        
+       
+       public int No_Certificado { get; set; }
+       public int HorasLaborales { get; set; }
+    
+       
+       
+           
+           
         
     }
 }

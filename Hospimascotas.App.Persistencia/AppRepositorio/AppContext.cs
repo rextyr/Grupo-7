@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Hospimascotas.App.Dominio;
+using Hospimascotas.App.Persistencia;
 
 namespace Hospimascotas.App.Persistencia
 {

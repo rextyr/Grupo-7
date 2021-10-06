@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aagt7e3RByvlpb9ud8D9QSrTpa8WK6KswPHnTT6rib5kCBH7Y5/8jiGCi7lcxWTJTVyH73FvzjFZYi+3VW71JQ==",
+  "dgSpecHash": "C/iw9jgKekeYalnF+Lzli0sncqQwosv3Swk/dFNIJq2/sfLiAHvWPh1VNxVg8GFy6KP1OqQZ02qW7wbIJ9ujVw==",
   "success": true,
-  "projectFilePath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Persistencia\\Hospimascotas.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DANIEL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
