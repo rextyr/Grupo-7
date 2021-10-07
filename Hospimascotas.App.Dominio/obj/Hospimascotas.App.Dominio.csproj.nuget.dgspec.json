@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {}
+    "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
+    "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
+        "projectUniqueName": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
         "projectName": "Hospimascotas.App.Dominio",
-        "projectPath": "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
+        "projectPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\DANIEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\obj\\",
+        "outputPath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DANIEL\\AppData\\Roaming\\NuGet\\NuGet.Config"

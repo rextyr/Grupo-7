@@ -66,6 +66,12 @@ C:\HospiMascotas\Hospimascotas.App\HospiMascotas.App.Consola\obj\Debug\netcoreap
 C:\HospiMascotas\Hospimascotas.App\HospiMascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.dll
 C:\HospiMascotas\Hospimascotas.App\HospiMascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.pdb
 C:\HospiMascotas\Hospimascotas.App\HospiMascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.genruntimeconfig.cache
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.csprojAssemblyReference.cache
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.AssemblyInfoInputs.cache
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.AssemblyInfo.cs
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.csproj.CoreCompileInputs.cache
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.dll
+C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.pdb
 C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\bin\Debug\netcoreapp3.1\Hospimascotas.App.Consola.exe
 C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\bin\Debug\netcoreapp3.1\Hospimascotas.App.Consola.deps.json
 C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\bin\Debug\netcoreapp3.1\Hospimascotas.App.Consola.runtimeconfig.json
@@ -126,11 +132,5 @@ C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\bin\Debug\netcoreapp3.1\Hos
 C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\bin\Debug\netcoreapp3.1\Hospimascotas.App.Persistencia.dll
 C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\bin\Debug\netcoreapp3.1\Hospimascotas.App.Dominio.pdb
 C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\bin\Debug\netcoreapp3.1\Hospimascotas.App.Persistencia.pdb
-C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.csprojAssemblyReference.cache
-C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.AssemblyInfoInputs.cache
-C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.AssemblyInfo.cs
-C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.csproj.CoreCompileInputs.cache
 C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.csproj.CopyComplete
-C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.dll
-C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.pdb
 C:\HospiMascotas\Grupo-7-1\Hospimascotas.App.Consola\obj\Debug\netcoreapp3.1\Hospimascotas.App.Consola.genruntimeconfig.cache

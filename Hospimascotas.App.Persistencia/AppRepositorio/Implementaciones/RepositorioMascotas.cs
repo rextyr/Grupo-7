@@ -25,8 +25,8 @@ namespace Hospimascotas.App.Persistencia
             var mascotaEnfermaadicionada = _appContext.MascotasEnfermas.FirstOrDefault( p => p.Id==idMascotaEnferma);
            if (mascotaEnfermaadicionada==null)
               return;
-            _appContext.MascotasEnfermas.Remove(mascotaEnfermaadicionada);
-             _appContext.SaveChanges();
+              _appContext.MascotasEnfermas.Remove(mascotaEnfermaadicionada);
+              _appContext.SaveChanges();
         }
          IEnumerable<MascotaEnferma> IRepositorioMascotas.GetAllMascotasEnfermas()
         {

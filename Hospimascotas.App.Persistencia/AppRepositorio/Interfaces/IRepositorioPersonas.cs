@@ -17,5 +17,6 @@ namespace Hospimascotas.App.Persistencia
         AuxiliarVeterinario UpdateAuxiliarVeterinario(AuxiliarVeterinario auxiliarVeterinario);
         void DeletePersona (int idPersona);
         Persona GetPersona(int idPersona);
+        
     }
 }

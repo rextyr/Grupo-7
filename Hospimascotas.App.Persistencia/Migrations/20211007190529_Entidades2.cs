@@ -73,8 +73,8 @@ namespace Hospimascotas.App.Persistencia.Migrations
                     TipoMascota = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Raza = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Latitud = table.Column<int>(type: "int", nullable: false),
-                    Longitud = table.Column<int>(type: "int", nullable: false),
+                    Latitud = table.Column<float>(type: "real", nullable: false),
+                    Longitud = table.Column<float>(type: "real", nullable: false),
                     Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     MedicoEncargadoId = table.Column<int>(type: "int", nullable: true),
                     AuxiliarVeterinario_designadoId = table.Column<int>(type: "int", nullable: true)

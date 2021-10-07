@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hospimascotas.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211006163533_Entidades2")]
+    [Migration("20211007190529_Entidades2")]
     partial class Entidades2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -70,11 +70,11 @@ namespace Hospimascotas.App.Persistencia.Migrations
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
-                    b.Property<int>("Latitud")
-                        .HasColumnType("int");
+                    b.Property<float>("Latitud")
+                        .HasColumnType("real");
 
-                    b.Property<int>("Longitud")
-                        .HasColumnType("int");
+                    b.Property<float>("Longitud")
+                        .HasColumnType("real");
 
                     b.Property<int?>("MedicoEncargadoId")
                         .HasColumnType("int");

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ziUeXIZek42l+1zh8Awa8cDhPo4Y0eae2rJBMYv9eFt52cHYgXAk59lr/y/yyjzPevwyCYTJ8LiLN5dU9Pv3NQ==",
+  "dgSpecHash": "hLhrZYeI5RQynk/W2z3Z7Dps7OXt08GBhfB34Sws0iV4vubphTIA2NRFpIzT7QDEMub7EM3jX0MfEoQP/X7KEA==",
   "success": true,
-  "projectFilePath": "C:\\Hospimascotas.P\\Hospimascotas.App\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
+  "projectFilePath": "C:\\HospiMascotas\\Grupo-7-1\\Hospimascotas.App.Dominio\\Hospimascotas.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DANIEL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\DANIEL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

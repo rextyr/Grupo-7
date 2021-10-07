@@ -68,11 +68,11 @@ namespace Hospimascotas.App.Persistencia.Migrations
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
-                    b.Property<int>("Latitud")
-                        .HasColumnType("int");
+                    b.Property<float>("Latitud")
+                        .HasColumnType("real");
 
-                    b.Property<int>("Longitud")
-                        .HasColumnType("int");
+                    b.Property<float>("Longitud")
+                        .HasColumnType("real");
 
                     b.Property<int?>("MedicoEncargadoId")
                         .HasColumnType("int");
