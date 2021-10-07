@@ -41,7 +41,7 @@ namespace Hospimascotas.App.Persistencia
         SugerenciaCuidado IRepositorioSugerenciaCuidado.UpdateSujerenciaCuidado(SugerenciaCuidado sugerenciaCuidado)
         {
            var sugerenciaAdicionada= _appContext.SugerenciasCuidado.FirstOrDefault( p => p.Id==sugerenciaCuidado.Id);
-           if (sugerenciaAdicionada==null)
+           if (sugerenciaAdicionada!=null)
            {
                sugerenciaAdicionada.FechaHora=sugerenciaCuidado.FechaHora;
                sugerenciaAdicionada.Descripcion=sugerenciaCuidado.Descripcion;

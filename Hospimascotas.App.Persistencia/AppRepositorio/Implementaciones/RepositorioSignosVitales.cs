@@ -40,7 +40,7 @@ namespace Hospimascotas.App.Persistencia
         SignosVitales IRepositorioSignosVitales.UpdateSignosVitales(SignosVitales signo)
         {
            var signoaAdicionado= _appContext.SignosVitales.FirstOrDefault( p => p.Id==signo.Id);
-           if (signoaAdicionado==null)
+           if (signoaAdicionado!=null)
            {
                signoaAdicionado.FechaHora=signo.FechaHora;
                signoaAdicionado.Signo=signo.Signo;

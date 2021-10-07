@@ -42,7 +42,7 @@ namespace Hospimascotas.App.Persistencia
         Historia IRepositorioHistoria.UpdateHistoria(Historia historia)
         {
            var historiadicionada = _appContext.Historias.FirstOrDefault( p => p.Id==historia.Id);
-           if (historiadicionada==null)
+           if (historiadicionada!=null)
            {
                historiadicionada.Diagnostico=historia.Diagnostico;
                historiadicionada.Entorno=historia.Entorno;
