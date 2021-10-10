@@ -10,7 +10,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("Hospimascotas.App.Frontend.Views")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("Hospimascotas.App.FrontEnd.Views")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

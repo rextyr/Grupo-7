@@ -50,6 +50,12 @@ namespace Hospimascotas.App.Persistencia
              return _appContext.Personas.FirstOrDefault( p => p.Id==idPersona);
           
         }
+      
+         MedicoVeterinario IRepositorioPersonas.GetMedico(int idMedico)
+        {
+             return _appContext.MedicosVeterianarios.FirstOrDefault( p => p.Id==idMedico);
+          
+        }
         Persona IRepositorioPersonas.UpdatePersona(Persona persona)
         {
            var personadicionada = _appContext.Personas.FirstOrDefault( p => p.Id==persona.Id);

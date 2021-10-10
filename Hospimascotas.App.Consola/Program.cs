@@ -69,10 +69,10 @@ namespace Hospimascotas.App.Consola
               peludoimpostor1.Ciudad= "Cali" ;
               peludoimpostor1.MedicoEncargado=MedicoRaul;
               
-              
-              UpdateMascotaEnferma(peludoimpostor1);
-            
-            
+             
+
+              GetAllMascotas();
+              GetAllMedico(1 );
         }
             private static void AddMascota(MascotaEnferma peludoenfermo)
         {
@@ -118,6 +118,13 @@ namespace Hospimascotas.App.Consola
            {
                Console.WriteLine("el nombre de la mascota es"+"  "+mascota.Nombre+"  "+"la edad de la mascotas es"+"   "+ mascota.Edad );
            }
+        }
+
+        public static void GetAllMedico(int id,  List<MascotaEnferma> ListademascotasAcargo)
+        {
+            var medicoEncontrado = _reportePersonas.GetMedico(id);
+            Console.WriteLine(medicoEncontrado.Nombre+"   "+medicoEncontrado.Apellido);
+            
         }
     }
 }   

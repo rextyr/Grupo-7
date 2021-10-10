@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Hospimascotas.App.Frontend/1.0.0": {
+      "Hospimascotas.App.FrontEnd/1.0.0": {
         "dependencies": {
           "Hospimascotas.App.Dominio": "1.0.0",
           "Hospimascotas.App.Persistencia": "1.0.0",
@@ -298,10 +298,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Hospimascotas.App.Frontend.dll": {}
+          "Hospimascotas.App.FrontEnd.dll": {}
         },
         "compile": {
-          "Hospimascotas.App.Frontend.dll": {}
+          "Hospimascotas.App.FrontEnd.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -3006,7 +3006,7 @@
     }
   },
   "libraries": {
-    "Hospimascotas.App.Frontend/1.0.0": {
+    "Hospimascotas.App.FrontEnd/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

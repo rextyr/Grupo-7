@@ -5,7 +5,7 @@ namespace Hospimascotas.App.Dominio
         public int Id { get; set; }
         public string  FechaHora { get; set; } 
         public string Descripcion { get; set; }
-        public int HistoriaId { get; set; }
+        public Historia HistoriaPerteneciente { get; set; }
         
         
       
